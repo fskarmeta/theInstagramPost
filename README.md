@@ -1,4 +1,4 @@
 # theInstagramPost
-Exercise for 4Geeks Bootcamp
+Exercise for 4Geeks Bootcamp-
 
-![Screenshot].(/Screenshot.png)
+![Screenshot](./Screenshot.png)
