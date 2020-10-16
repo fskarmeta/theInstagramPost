@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 500px;
+    height: 750px;
+    background: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    object-fit: contain;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 10px 0px 10px;
+}
+
+.header-izq i {
+    width: 2rem;
+    padding-top: 0px;
+}
+
+.header-derecha i {
+    padding-top: 4px;
+}
+
+h2 {
+    font-size: 15px;
+    line-height: 0;
+}
+
+p {
+    font-size: 16px;
+    line-height: 8px;
+}
+
+.header-izq {
+    display: flex;
+}
+
+.header-derecha {
+    vertical-align: center;
+    margin-right: 2px;
+}
+
+.h-textos {
+    margin-left: 15px;
+    line-height: 0.1px;
+}
+
+.imagen {
+    padding-top: 5px;
+}
+
+.imagen img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.iconos {
+    width: 100%;
+    padding-top: 13px;
+}
+
+.iconos-i {
+    float: left;
+    width: 48%;
+    margin-left: 2%;
+}
+
+.iconos-i i {
+    margin-left: 5px;
+}
+
+.iconos-d {
+    float: right;
+    width: 47%;
+    padding-right: 3%;
+    text-align: right;
+}
+
+.likes {
+    margin: 0px 15px;
+    height: 30px;
+    text-align: justify;
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+
+.texto {
+    margin: 0 15px;
+    text-align: justify;
+}
